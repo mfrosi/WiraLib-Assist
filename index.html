@@ -28,7 +28,7 @@ const FAQ=[
 {id:'lokasi',label:'Lokasi',q:'Di mana lokasi perpustakaan?',terms:['alamat','lokasi','dimana','di mana','gedung','arah','maps'],answer:'Perpustakaan Universitas Wiraraja berada di kawasan kampus, Jl. Raya Pamekasan–Sumenep KM 5, Patean, Kecamatan Batuan, Kabupaten Sumenep, Jawa Timur.',url:'https://perpus.wiraraja.ac.id/halaman/kontak-kami'},
 {id:'aturan',label:'Tata tertib',q:'Apa saja tata tertib perpustakaan?',terms:['tata tertib','aturan','makan','minum','berisik','identitas','larangan'],answer:'Pengunjung perlu menunjukkan KTM/identitas yang berlaku, menjaga ketenangan, dan tidak membawa makanan atau minuman ke area koleksi dan ruang baca (kecuali air putih dalam botol tertutup sesuai ketentuan).',url:'https://perpus.wiraraja.ac.id/halaman/tata-tertib'}
 ];
-const FEEDBACK_ENDPOINT='https://script.google.com/macros/s/AKfycbyRPO_uGW7hGh9hW6GBa6LBTjydsfrosZCAT7j3t86M7RUjR8_1Gh7mpFIW6xkhR4Fi/exec'; // Isi URL /exec dari deployment Google Apps Script setelah setup
+const FEEDBACK_ENDPOINT='https://script.google.com/macros/s/AKfycbz-FB5SXtAtEsy8WXs8j-JYiU6O2VfGhMnqVVg_-Qlm2lSc9VlDo0-gxlnDb9ImLCw/exec'; // Isi URL /exec dari deployment Google Apps Script setelah setup
 const messages=document.getElementById('messages'),q=document.getElementById('query'),quick=document.getElementById('quick');
 let visitor=null;
 const sessionId=()=> (typeof crypto!=='undefined' && crypto.randomUUID ? crypto.randomUUID() : String(Date.now())+'-'+Math.random().toString(36).slice(2));
