@@ -1,0 +1,222 @@
+[
+  {
+    "id": "jam",
+    "label": "Jam buka",
+    "q": "Perpustakaan buka jam berapa?",
+    "terms": [
+      "jam buka",
+      "jam operasional",
+      "jam layanan",
+      "buka",
+      "tutup",
+      "hari minggu",
+      "sabtu",
+      "besok",
+      "libur",
+      "istirahat",
+      "jadwal"
+    ],
+    "answer": "Jadwal layanan perpustakaan:\n• Senin–Jumat: 07.30–15.30 WIB (istirahat 12.00–13.00; Jumat 11.30–13.00).\n• Sabtu, Minggu, dan libur nasional: tutup.\n\nPerubahan jadwal dapat diumumkan melalui Instagram Perpustakaan UNIJA.",
+    "url": "https://perpus.wiraraja.ac.id/halaman/jadwal-operasional"
+  },
+  {
+    "id": "pinjam",
+    "label": "Pinjam buku",
+    "q": "Bagaimana aturan peminjaman buku?",
+    "terms": [
+      "pinjam",
+      "meminjam",
+      "peminjaman",
+      "berapa buku",
+      "berapa hari",
+      "masa pinjam"
+    ],
+    "answer": "Mahasiswa aktif dapat meminjam maksimal 2 eksemplar buku selama 7 hari. Masa pinjam dapat diperpanjang 3 kali.",
+    "url": "https://perpus.wiraraja.ac.id/halaman/layanan-sirkulasi"
+  },
+  {
+    "id": "perpanjang",
+    "label": "Perpanjang",
+    "q": "Bagaimana cara memperpanjang pinjaman?",
+    "terms": [
+      "perpanjang",
+      "perpanjangan",
+      "renew",
+      "tambah waktu"
+    ],
+    "answer": "Masa pinjam buku teks dapat diperpanjang tiga kali.",
+    "url": "https://perpus.wiraraja.ac.id/halaman/layanan-sirkulasi"
+  },
+  {
+    "id": "denda",
+    "label": "Denda",
+    "q": "Bagaimana jika terlambat mengembalikan buku?",
+    "terms": [
+      "denda",
+      "telat",
+      "terlambat",
+      "keterlambatan",
+      "jatuh tempo",
+      "sanksi"
+    ],
+    "answer": "Keterlambatan pengembalian dikenakan denda Rp500 per hari per eksemplar.",
+    "url": "https://perpus.wiraraja.ac.id/halaman/layanan-sirkulasi"
+  },
+  {
+    "id": "opac",
+    "label": "Cari buku",
+    "q": "Bagaimana mencari buku di katalog?",
+    "terms": [
+      "opac",
+      "katalog",
+      "cari buku",
+      "judul buku",
+      "stok buku",
+      "buku tersedia",
+      "koleksi",
+      "rak",
+      "nomor panggil"
+    ],
+    "answer": "Cari judul buku melalui katalog OPAC. Periksa hasil pencarian untuk melihat ketersediaan, nomor panggil, dan lokasi rak. Informasi koleksi yang berubah sebaiknya dipastikan kembali di katalog.",
+    "url": "https://opac.wiraraja.ac.id/"
+  },
+  {
+    "id": "anggota",
+    "label": "Keanggotaan",
+    "q": "Bagaimana mendaftar anggota perpustakaan?",
+    "terms": [
+      "anggota",
+      "keanggotaan",
+      "daftar",
+      "registrasi",
+      "aktivasi",
+      "member",
+      "kartu anggota"
+    ],
+    "answer": "Keanggotaan dapat didaftarkan melalui QR code pada visitor counter, Instagram perpustakaan, atau s.id/PendaftaranAnggotaPerpustakaanUnija. Siapkan foto diri memakai almamater dan KTM dengan ukuran file di bawah 500 KB. Proses verifikasi/aktivasi dapat memerlukan waktu hingga 48 jam.",
+    "url": "https://perpus.wiraraja.ac.id/halaman/prosedur-keanggotaan"
+  },
+  {
+    "id": "ktm",
+    "label": "KTM hilang",
+    "q": "Bagaimana jika KTM atau kartu perpustakaan hilang?",
+    "terms": [
+      "ktm hilang",
+      "kartu hilang",
+      "kehilangan kartu",
+      "hilang ktm",
+      "kartu rusak"
+    ],
+    "answer": "Segera laporkan kehilangan KTM kepada fakultas.",
+    "url": "https://perpus.wiraraja.ac.id/halaman/faq"
+  },
+  {
+    "id": "jurnal",
+    "label": "Jurnal online",
+    "q": "Bagaimana mengakses jurnal dari luar kampus?",
+    "terms": [
+      "jurnal",
+      "e-journal",
+      "e resources",
+      "e-resources",
+      "remote access",
+      "luar kampus",
+      "ebook",
+      "e-book",
+      "database"
+    ],
+    "answer": "Situs FAQ perpustakaan menyebutkan akses jurnal berlangganan dari luar kampus melalui fitur remote access pada menu E-Resources menggunakan akun kampus resmi. Untuk gangguan login atau hak akses, mintalah bantuan petugas saat jam layanan.",
+    "url": "https://perpus.wiraraja.ac.id/halaman/faq"
+  },
+  {
+    "id": "skripsi",
+    "label": "Skripsi & referensi",
+    "q": "Apakah skripsi atau buku referensi boleh dipinjam?",
+    "terms": [
+      "skripsi",
+      "tesis",
+      "disertasi",
+      "tugas akhir",
+      "referensi",
+      "ensiklopedia",
+      "kamus"
+    ],
+    "answer": "Skripsi/tugas akhir, ensiklopedia, kamus khusus, terbitan berkala, dan koleksi referensi tertentu hanya untuk dibaca di tempat, tidak dibawa pulang. Anda dapat menanyakan akses digital karya ilmiah ke petugas.",
+    "url": "https://perpus.wiraraja.ac.id/halaman/layanan-sirkulasi"
+  },
+  {
+    "id": "lokasi",
+    "label": "Lokasi",
+    "q": "Di mana lokasi perpustakaan?",
+    "terms": [
+      "alamat",
+      "lokasi",
+      "dimana",
+      "di mana",
+      "gedung",
+      "arah",
+      "maps"
+    ],
+    "answer": "Perpustakaan Universitas Wiraraja berada di kawasan kampus, Jl. Raya Pamekasan–Sumenep KM 5, Patean, Kecamatan Batuan, Kabupaten Sumenep, Jawa Timur.",
+    "url": "https://perpus.wiraraja.ac.id/halaman/kontak-kami"
+  },
+  {
+    "id": "aturan",
+    "label": "Tata tertib",
+    "q": "Apa saja tata tertib perpustakaan?",
+    "terms": [
+      "tata tertib",
+      "aturan",
+      "makan",
+      "minum",
+      "berisik",
+      "identitas",
+      "larangan"
+    ],
+    "answer": "Pengunjung perlu menunjukkan KTM/identitas yang berlaku, menjaga ketenangan, dan tidak membawa makanan atau minuman ke area koleksi dan ruang baca (kecuali air putih dalam botol tertutup sesuai ketentuan).",
+    "url": "https://perpus.wiraraja.ac.id/halaman/tata-tertib"
+  },
+  {
+    "id": "repository_akun",
+    "label": "Unggah mandiri",
+    "q": "Bagaimana cara mengunggah skripsi ke repository UNIJA?",
+    "terms": [
+      "unggah mandiri",
+      "unggah skripsi",
+      "upload skripsi",
+      "buat akun repository",
+      "akun repository"
+    ],
+    "answer": "Unggah mandiri dapat dilakukan oleh mahasiswa yang sudah memiliki akun repository. Untuk membuat akun, silakan datang ke Perpustakaan UNIJA.",
+    "url": ""
+  },
+  {
+    "id": "repository_selesai_upload",
+    "label": "Selesai upload",
+    "q": "Saya sudah selesai upload skripsi",
+    "terms": [
+      "selesai upload",
+      "sudah upload",
+      "selesai unggah",
+      "sudah unggah",
+      "kapan diperiksa"
+    ],
+    "answer": "Silakan tunggu maksimal 3 hari kerja atau datang langsung ke UPT Perpustakaan Universitas Wiraraja.",
+    "url": ""
+  },
+  {
+    "id": "repository_setelah_revisi",
+    "label": "Status revisi repository",
+    "q": "Saya belum menerima email padahal sudah revisi",
+    "terms": [
+      "belum menerima email",
+      "email setelah revisi",
+      "selesai revisi",
+      "sudah revisi",
+      "belum dapat email",
+      "belum menerima pemberitahuan"
+    ],
+    "answer": "Pastikan kamu sudah melakukan \"Deposit\" pada akun Repository. Jika masih mengalami kendala, silakan datang ke UPT Perpustakaan Universitas Wiraraja.",
+    "url": ""
+  }
+]

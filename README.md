@@ -1,15 +1,9 @@
-# WiraLib Assistant — mini-site FAQ
+# WiraLib Assistant + Gemini (Vercel)
 
-Website statis FAQ Perpustakaan Universitas Wiraraja. Dapat dipublikasikan gratis melalui GitHub Pages.
+1. Upload semua file beserta folder `api/` ke root repository GitHub yang tersambung ke Vercel. `index.html` dan `Code.gs` dari versi ini sudah disertakan; `Code.gs` hanya untuk Google Apps Script, JANGAN upload ke Vercel (file bisa tetap disimpan lokal).
+2. Buat API key di https://aistudio.google.com/apikey. Pastikan project memiliki akses model gratis yang dipilih.
+3. Di Vercel, buka Project → Settings → Environment Variables. Tambahkan `GEMINI_API_KEY` (value = kunci rahasia), dan opsional `GEMINI_MODEL` = `gemini-3.5-flash-lite`. Jangan taruh API key di `index.html` atau GitHub.
+4. Redeploy production di Vercel. Klik chatbot dan uji pertanyaan baru. Jika Gemini mengalami error atau kuota habis, chatbot otomatis menggunakan FAQ berbasis kata kunci.
+5. Pengumpulan rating akhir chat dan Apps Script/Google Sheets tetap seperti sebelumnya; uji langsung apakah satu kunjungan dan rating masuk spreadsheet.
 
-## Cara publikasi
-1. Buat repository publik bernama `wiralib-assistant` pada GitHub.
-2. Unggah `index.html` ke root repository melalui Add file → Upload files lalu Commit changes.
-3. Buka Settings → Pages → Build and deployment → Deploy from a branch → Branch `main`, folder `/(root)` → Save.
-4. Buka `https://USERNAME.github.io/wiralib-assistant/` (ganti USERNAME dengan username GitHub).
-
-## Penting sebelum publikasi
-- Konfirmasi jam layanan, ketentuan peminjaman, URL referensi, dan alamat email tujuan di `index.html` kepada pihak perpustakaan. Informasi dalam prototipe bisa berubah.
-- Ini chatbot FAQ berbasis kata kunci, bukan AI generatif atau CS langsung.
-- Jangan masukkan data pribadi, kata sandi, token API, atau data mahasiswa ke repository publik.
-- Website independen, tidak berafiliasi secara teknis dengan pengelola website resmi perpustakaan. Tampilkan status uji coba jika belum memperoleh persetujuan.
+**Perhatian:** Paket ini adalah prototipe. Endpoint `/api/chat` terbuka untuk publik; tambahkan rate limiting/bot protection sebelum penyebaran luas untuk mencegah penyalahgunaan kuota. Pertanyaan mahasiswa dikirim ke Gemini, jadi perbarui pemberitahuan privasi dan jangan mengumpulkan data sensitif. Free tier punya batas kuota dan ketentuan penggunaan data. Teks FAQ dari versi WiraLib terakhir dijadikan basis model, perlu diverifikasi dengan kebijakan sebenarnya. Model Gemini bisa tetap menghasilkan kesalahan, tinjau sebelum digunakan secara resmi.
